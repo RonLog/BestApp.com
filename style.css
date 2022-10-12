@@ -1,0 +1,310 @@
+* {
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
+}
+
+header label,
+header input {
+    display: none;
+}
+
+.logo {
+    flex-grow: 2;
+    padding: 0px 100px;
+}
+
+.logo h2 {
+    font-weight: bold;
+    background: linear-gradient(rgb(250, 50, 147), rgb(154, 60, 146));
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+nav {
+    flex-grow: 1;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+}
+
+nav ul li {
+    padding: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(154, 60, 146);
+}
+
+main {
+    margin-top: 70px;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+main span {
+    color: rgb(250, 50, 147);
+}
+
+main button {
+    padding: 10px 20px;
+    border-radius: 20px;
+    background: linear-gradient(to left, rgb(250, 50, 147), rgb(154, 60, 146));
+    font-weight: bold;
+    color: white;
+    border: none;
+}
+
+.main1 {
+    flex-basis: 30%;
+    margin: 50px;
+    padding: 50px;
+}
+
+.main2 {
+    text-align: right;
+    flex-basis: 50%;
+}
+
+.main2 img {
+    height: auto;
+    width: auto;
+}
+
+
+.contacts {
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.contacts h1 {
+    flex-basis: 100%;
+    text-align: center;
+    font-weight: bold;
+    background: linear-gradient(rgb(250, 50, 147), rgb(154, 60, 146));
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.contact1 {
+    flex-basis: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    min-height: 80vh;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.contact1 img {
+    height: auto;
+    width: auto;
+}
+
+.contact2 {
+    flex-basis: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    min-height: 80vh;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.contact2 input[type='text'] {
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid gray;
+}
+
+.contact2 input[type='email'] {
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid gray;
+}
+
+.contact2 textarea {
+    border: none;
+    border-bottom: 1px solid gray;
+}
+
+.contact2 button {
+    padding: 10px 20px;
+    border-radius: 20px;
+    background: linear-gradient(to left, rgb(250, 50, 147), rgb(154, 60, 146));
+    font-weight: bold;
+    color: white;
+    border: none;
+    width: 200px;
+}
+
+.buttons button {
+    margin: 5px;
+}
+
+
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    min-height: 100vh;
+
+}
+
+.features h1 {
+    flex-basis: 100%;
+    text-align: center;
+    font-weight: bold;
+    background: linear-gradient(rgb(250, 50, 147), rgb(154, 60, 146));
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.feature {
+    flex-basis: 20%;
+    margin: 15px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
+    border: 1px solid lightgray;
+    text-align: center;
+    border-radius: 5px;
+
+}
+
+.feature button {
+    padding: 10px 30px;
+    border-radius: 20px;
+    background: linear-gradient(to left, rgb(250, 50, 147), rgb(154, 60, 146));
+    font-weight: bold;
+    color: white;
+    border: none;
+}
+
+.feature h2 {
+    color: rgb(250, 50, 147);
+}
+
+.feature h1 span {
+    font-size: large;
+}
+
+.feature ul {
+    list-style: none;
+}
+
+.feature ul li .feature ul li:nth-child(2) {
+    padding: 5px;
+}
+
+.feature ul li:nth-child(3) {
+    padding: 5px;
+}
+
+.feature span {
+    font-size: xx-large;
+}
+
+.price {
+    border: 1px solid rgb(250, 50, 147);
+}
+
+footer {
+    background: linear-gradient(to left, rgb(250, 50, 147), rgb(154, 60, 146));
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footleft i {
+    margin: 10px 10px;
+}
+
+.footright span {
+    margin: 10px 10px;
+}
+
+
+@media all and (max-width:800px) {
+    .logo {
+        padding: 0px;
+        text-align: center;
+    }
+
+    .contact2 {
+        flex-grow: 1;
+    }
+
+    header label {
+        display: block;
+    }
+
+    header label::before {
+        content: "\2261";
+        font-size: 40px;
+        color: rgb(250, 50, 147);
+    }
+
+    header input:checked+label::before {
+        content: "\00d7";
+    }
+
+    nav {
+        display: none;
+    }
+
+    header input:checked~nav {
+        display: block;
+    }
+
+    main {
+        margin-top: 0px;
+    }
+
+    .feature {
+        flex-basis: 100%;
+    }
+    
+    .footleft {
+        flex: 100%;
+        text-align: center;
+    }
+
+    .footright {
+        flex: 100%;
+        text-align: center;
+    }
+
+}
+
+@media all and (min-width:1200px) {
+    header {
+        position: fixed;
+        top: 0;
+        width: 100vw;
+        background-color: white;
+    }
+
+}
