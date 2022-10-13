@@ -7,7 +7,7 @@ header {
     display: flex;
     flex-wrap: wrap;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
-    z-index:1;
+    z-index: 1;
 }
 
 header label,
@@ -42,13 +42,20 @@ nav ul {
 }
 
 nav ul li {
-    padding: 10px;
+    margin: 10px;
 }
 
 nav ul li a {
     text-decoration: none;
     font-weight: bold;
     color: rgb(154, 60, 146);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    color: white;
+    background-color: rgb(154, 60, 146);
 }
 
 main {
@@ -287,6 +294,9 @@ footer {
     .logo {
         padding: 0px;
         text-align: center;
+    }
+    nav ul li {
+        margin: 0px;
     }
 
     .contact2 {
