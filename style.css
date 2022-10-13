@@ -7,6 +7,7 @@ header {
     display: flex;
     flex-wrap: wrap;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
+    z-index:1;
 }
 
 header label,
