@@ -1,8 +1,9 @@
-html{
+html {
     margin: 0;
     padding: 0;
 }
-body{
+
+body {
     margin: 0;
     padding: 0;
 }
@@ -202,7 +203,7 @@ main button {
 .contact2 button {
     padding: 10px 20px;
     border-radius: 20px;
-    background: linear-gradient(to right,rgb(120,60,149), rgb(250, 50, 147));
+    background: linear-gradient(to right, rgb(120, 60, 149), rgb(250, 50, 147));
     font-weight: bold;
     color: white;
     border: none;
@@ -212,7 +213,8 @@ main button {
 .buttons button {
     margin: 5px;
 }
-.buttons button img{
+
+.buttons button img {
     width: 15px;
     vertical-align: bottom;
 }
@@ -224,6 +226,17 @@ main button {
     align-content: center;
     min-height: 100vh;
 
+}
+
+blockquote::after {
+    content: "\201d";
+    font-size: 108px;
+    color: rgb(255, 193, 223);
+    font-size: 20em;
+    display: block;
+    margin-bottom: -230px;
+    margin-right: -200px;
+    margin-top: -150px;
 }
 
 .features h1 {
@@ -308,15 +321,19 @@ footer {
         padding: 0px;
         text-align: center;
     }
+
     nav ul li {
         margin: 0px;
     }
+
     nav ul li a {
         font-size: small;
     }
-    .contact1{
+
+    .contact1 {
         padding: 0;
     }
+
     .contact2 {
         flex-grow: 1;
     }
@@ -346,9 +363,12 @@ footer {
     main {
         margin-top: 0px;
     }
-    .main2 img, .contact1 img{
+
+    .main2 img,
+    .contact1 img {
         width: 100vw;
     }
+
     .feature {
         flex-basis: 100%;
     }
