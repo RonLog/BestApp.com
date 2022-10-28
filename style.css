@@ -228,6 +228,10 @@ main button {
 
 }
 
+blockquote {
+    margin: 0;
+}
+
 blockquote::after {
     content: "\201d";
     font-size: 108px;
@@ -371,6 +375,12 @@ footer {
 
     .feature {
         flex-basis: 100%;
+    }
+
+    blockquote::after {
+        display: table;
+        margin-left: auto;
+        margin-right: 0;
     }
 
     .footleft {
