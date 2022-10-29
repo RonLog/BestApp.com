@@ -315,6 +315,10 @@ footer {
     margin: 10px 10px;
 }
 
+.footleft i:hover {
+    color: rgb(252, 80, 163);
+}
+
 .footright span {
     margin: 10px 10px;
 }
