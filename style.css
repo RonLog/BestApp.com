@@ -335,6 +335,7 @@ footer {
 
 .footright span {
     margin: 10px 10px;
+    display: inline-block;
 }
 
 
