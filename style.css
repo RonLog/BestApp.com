@@ -30,12 +30,12 @@ header input {
     padding: 0px 100px;
 }
 
-.logo h2 {
+.logo h2 a {
     font-weight: bold;
-    background: linear-gradient(rgb(250, 50, 147), rgb(154, 60, 146));
-    color: transparent;
+    background: linear-gradient(to right,
+            rgb(248, 68, 155),
+            rgb(145, 0, 133));
     -webkit-text-fill-color: transparent;
-    background-clip: text;
     -webkit-background-clip: text;
 }
 
