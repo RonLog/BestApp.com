@@ -263,7 +263,13 @@ blockquote::after {
     border: 1px solid lightgray;
     text-align: center;
     border-radius: 5px;
+    transition: 0.7s;
 
+}
+
+.feature:hover {
+    cursor: pointer;
+    transform: scale(0.9);
 }
 
 .feature button {
