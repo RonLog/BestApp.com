@@ -90,6 +90,20 @@ main button {
     font-weight: bold;
     color: white;
     border: none;
+    font-size: large;
+    font-weight: bold;
+}
+
+main button:hover {
+    cursor: pointer;
+    border: 1px solid rgb(145, 0, 133);
+    border: visible;
+    background: linear-gradient(to left,
+            rgb(248, 68, 155),
+            rgb(145, 0, 133));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
 }
 
 .main1 {
@@ -212,6 +226,18 @@ main button {
     width: 200px;
 }
 
+.contact2 button:hover {
+    cursor: pointer;
+    border: 1px solid rgb(145, 0, 133);
+    border: visible;
+    background: linear-gradient(to left,
+            rgb(248, 68, 155),
+            rgb(145, 0, 133));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
 .buttons button {
     margin: 5px;
 }
@@ -282,6 +308,19 @@ blockquote::after {
     margin-bottom: 10px;
 
 }
+
+.feature button:hover {
+    cursor: pointer;
+    border: 1px solid rgb(145, 0, 133);
+    border: visible;
+    background: linear-gradient(to left,
+            rgb(248, 68, 155),
+            rgb(145, 0, 133));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
 
 .feature h2 {
     color: rgb(250, 50, 147);
