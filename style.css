@@ -352,7 +352,7 @@ blockquote::after {
 }
 
 .feature span {
-    font-size: xx-large;
+    color: rgb(150, 29, 150);
 }
 
 .price {
